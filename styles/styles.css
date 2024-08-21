@@ -1,0 +1,51 @@
+/*
+  Name: Ranjod Singh
+  Date: 8-18-2024
+  File Name: styles.css
+  Description: This file contains the CSS styles for the styles of the Slate & Pencil Tutoring website.
+*/
+header img#logo {
+  width: 100%;
+  height: auto;
+}
+
+nav.vertical ul,
+nav.horizontal ul {
+  list-style-type: none;
+}
+
+nav.vertical ul li a,
+nav.horizontal ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav.horizontal ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #222;
+}
+
+nav.horizontal ul li a {
+  color: white;
+  padding: 10px;
+}
+
+main section,
+main aside {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+main section img,
+main aside img {
+  margin-right: 15px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

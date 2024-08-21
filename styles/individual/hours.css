@@ -1,0 +1,36 @@
+/*
+  Name: Ranjod Singh
+  Date: 8-18-2024
+  File Name: hours.css
+  Description: This file contains the CSS styles for the hours page of the Slate & Pencil Tutoring website.
+*/
+main p {
+  color: blue;
+  margin-bottom: 20px;
+}
+
+main table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+main table,
+main table th,
+main table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+main table th {
+  background-color: #000;
+  color: white;
+}
+
+main table tr:nth-child(2n) {
+  background-color: #d1e7ff;
+}
+
+main table tr:nth-child(2n + 1):not(:first-child) {
+  background-color: #b3d1ff;
+}

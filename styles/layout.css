@@ -1,0 +1,83 @@
+/*
+  Name: Ranjod Singh
+  Date: 8-18-2024
+  File Name: styles.css
+  Description: This file contains the CSS styles for the standard layout of the Slate & Pencil Tutoring website.
+*/
+body {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav-horizontal"
+    "main"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr auto;
+  height: 100vh;
+  margin: 0;
+}
+main {
+  background-color: blanchedalmond;
+}
+header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  background-color: aquamarine;
+  width: auto;
+}
+
+header img#logo {
+  grid-column: 1 / 2;
+  width: 100%;
+  height: auto;
+  background-color: aquamarine;
+}
+
+nav.vertical {
+  grid-column: 2 / 3;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+nav.vertical ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: aquamarine;
+  margin: 0;
+}
+
+nav.vertical ul li {
+  margin-bottom: 10px;
+}
+
+nav.vertical ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav.horizontal ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+main {
+  grid-area: main;
+  padding: 20px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #3b3b3b;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}

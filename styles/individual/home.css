@@ -1,0 +1,31 @@
+/*
+  Name: Ranjod Singh
+  Date: 8-18-2024
+  File Name: home.css
+  Description: This file contains the CSS styles for the home page of the Slate & Pencil Tutoring website.
+*/
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+main section img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+main section:nth-child(4) {
+  grid-column: 2 / 3;
+}

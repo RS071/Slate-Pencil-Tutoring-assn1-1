@@ -1,0 +1,35 @@
+/*
+  Name: Ranjod Singh
+  Date: 8-18-2024
+  File Name: testimonials.css
+  Description: This file contains the CSS styles for the testimonials page of the Slate & Pencil Tutoring website.
+*/
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+main aside {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: blanchedalmond;
+}
+
+main aside img {
+  width: 50px;
+  height: 50px;
+}
+
+main aside p {
+  font-size: 1rem;
+  color: blue;
+}
+
+main aside p:last-of-type {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: blue;
+}

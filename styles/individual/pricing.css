@@ -1,0 +1,64 @@
+/*
+  Name: Ranjod Singh
+  Date: 8-18-2024
+  File Name: pricing.css
+  Description: This file contains the CSS styles for the pricing page of the Slate & Pencil Tutoring website.
+*/
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+main table {
+  width: 60%;
+  border-collapse: collapse;
+}
+
+main table,
+main table th,
+main table td {
+  border: 1px solid #ccc;
+  padding: 2px;
+  text-align: left;
+}
+
+main table th {
+  background-color: #000;
+  color: white;
+}
+
+main table tr:nth-child(2n) {
+  background-color: #d1e7ff;
+}
+
+main table tr:nth-child(2n + 1):not(:first-child) {
+  background-color: #b3d1ff;
+}
+
+main aside {
+  width: 30%;
+  padding: 20px;
+  background-color: #dbc923;
+  border: 3px solid #000;
+  border-radius: 10px;
+  display: block;
+}
+
+main aside p {
+  display: block;
+  margin-bottom: 20px;
+}
+
+main aside ul {
+  display: block;
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+main aside ul li {
+  margin-bottom: 10px;
+}
